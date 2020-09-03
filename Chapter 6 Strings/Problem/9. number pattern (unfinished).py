@@ -4,7 +4,11 @@
 #   3
 #    4
 
-s = input('Enter a number:')
-for i in range(s):
-    print(s[:i])
+n = eval(input('Enter a number:'))
+
+s = str(n)
+
+for i in range(4):
+    print(i+1)
+
     
