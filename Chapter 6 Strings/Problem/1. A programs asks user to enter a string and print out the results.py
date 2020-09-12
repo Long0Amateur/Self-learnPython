@@ -42,5 +42,5 @@ print('The string with every a replaced an e:',s.replace('a','e'))
 
 # the string with every letter replace by a hyphen
 
-print('The strng with every letter replaced by a hyphen:',s.replace(s,'-'*len(s)))
+print('The string with every letter replaced by a hyphen:',s.replace(s,'-'*len(s)))
 
