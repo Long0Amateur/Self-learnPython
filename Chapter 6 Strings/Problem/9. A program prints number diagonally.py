@@ -5,9 +5,12 @@
 #    4
 
 n = int(input('Enter a number:'))
-for i in range(n):
+# print R-diagonal
+for i in range(n): 
     print(' '*i + str(i+1))
-
+# prints L-diagonal  
+for j in range(n): 
+    print(' '*(n-j) + str(j+1))
     
 # n = eval(input('Enter a number:'))
 # Convert the integer input to a list L =[1,2..n]
